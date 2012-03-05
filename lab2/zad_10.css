@@ -1,0 +1,54 @@
+body{
+    width:730px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow-y:hidden;   
+}
+
+#menu{
+    text-align:center;
+    height:35px;
+    background:#dddddd;   
+    border-bottom:3px solid black;
+    border-right:3px solid black;
+    border-left:3px solid Silver;
+    border-top:3px solid Silver;
+	position:fixed;
+	top:0px;
+}
+
+#menu a{
+    text-decoration:none;
+    color:brown;
+}
+
+.el_menu{
+    position:relative;
+    top:7px;
+    padding:1px;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    border-left:1px solid Silver;
+    border-top:1px solid Silver;
+}
+
+.el_menu:hover{
+    background:white;
+}
+
+.el_menu:active{
+    background:white;
+    border-bottom:1px solid Silver;
+    border-right:1px solid Silver;
+    border-left:1px solid Black;
+    border-top:1px solid Black;
+}
+
+p {
+    text-align:left;
+}
+
+#tresc{
+    background-color:#DDD;
+    border:3px solid #ddd;
+} 

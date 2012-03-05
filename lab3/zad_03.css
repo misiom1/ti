@@ -1,0 +1,23 @@
+body {
+	background-color:LightGrey;
+}
+#menu {
+	/*float:left;*/
+	position:relative;
+	top:10px;
+	left:0px;
+	width:20%;
+}
+#tresc {
+	/*float:right;*/
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:75%;
+	border-left-style:solid;
+	padding-left:30px;
+}
+.el_menu {
+display:block;
+text-align:center;
+}

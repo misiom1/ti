@@ -1,0 +1,23 @@
+div {
+    display:inline;
+}
+
+.A {
+    position:relative;
+    bottom:-5px;
+}
+
+.A .A {
+    position:relative;
+    bottom:-5px;   
+}
+
+.A .A .A {
+    position:relative;
+    bottom:-5px;   
+}
+
+.B {
+    position:relative;
+    bottom:5px;   
+}

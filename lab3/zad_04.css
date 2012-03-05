@@ -1,0 +1,67 @@
+body {
+	background-color:LightGray;
+}
+#menu {
+	position:relative;
+	top:40px;
+	left:0px;
+	width:20%;
+}
+#tresc {
+	position:absolute;
+	top:30px;
+	right:0px;
+	width:75%;
+	border-left-style:solid;
+	padding-left:30px;
+	padding-bottom:30px;
+}
+#naglowek {
+		position:fixed;
+		top:0px;
+		left:5px;
+
+		background-color:DarkGray;
+		width:45%;
+		padding:2px 10px 5px 10px;
+		border-bottom:solid;
+		border-bottom-width:1.5px;
+}
+#stopka {
+		position:fixed;
+		bottom:0px;
+		left:5px;
+		background-color:DarkGray;
+		width:45%;
+		padding:2px 10px 5px 10px;
+		border-top:solid;
+		border-top-width:1.5px;
+}
+.el_menu {
+display:block;
+text-align:center;
+width:100%;
+background-color:white;
+border-right:solid;
+border-right-width:1.5px;
+border-bottom:solid;
+border-bottom-width:1.5px;
+border-top:solid;
+border-top-width:1px;
+border-left:solid;
+border-left-width:1px;
+border-left-color:DarkGray;
+border-top-color:DarkGray;
+}
+.el_menu a:link {
+	color:red;
+	text-decoration:none;
+	}
+.el_menu a:visited {
+	color:red;
+	text-decoration:none;
+	}
+.el_menu a:hover {
+	color:red;
+	text-decoration:none;
+	}
